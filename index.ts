@@ -42,4 +42,4 @@ const updateGreetings = (): void => {
 document.addEventListener('DOMContentLoaded', (): void => {
     console.log("Typescript file successfully connected and loaded");
     updateGreetings();
-};
+});

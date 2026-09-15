@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>Igihozo Charlene</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
-    <header>
+<div class="nav-wrapper">
+       <header >
         <h2>Igihozo Charlene</h2>
         <nav>
             
             <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+            <a href="#technical-skills">Skills</a>
             <a href="#education">Education</a>
         <a href="resume.pdf" class="resume-btn">Resume</a>
         </nav>
     </header>
+</div>
+ 
     <hr>
 
    
@@ -53,7 +58,7 @@
         <h2>Technical Skills</h2>
         <hr>
     
-<div class="tech">
+<div class="tech" id="technical-skills">
     <p>HTML5/Semantic Markup</p>
         <p>CSS3/Flexbox&Grid</p>
         <p>Javascript</p>
@@ -66,7 +71,7 @@
 
    
     <hr>
-<div class="table-table">
+<div class="table-table" id="education">
 <h2>Education & Trainings</h2>
 <hr>
 <table>
@@ -97,8 +102,9 @@
 </tbody>
 </table>
 </div>
-
- <h2 class="get-in-touch">Get In Touch</h2>  
+<div class="get-in-touch" id="contact">
+<h2>Get In Touch</h2>
+</div>
  <hr> 
 <div class="reach-us">
 
@@ -119,8 +125,8 @@
 <div class="label">Location:</div>
 <div class="cont-loc">Kigali,Rwanda</div>
 </div>
-
 </div>
+<script src="index.js"></script>
 
 
 </body>
